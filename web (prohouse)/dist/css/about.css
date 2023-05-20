@@ -1,0 +1,32 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff6bf;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box > h1 {
+    height: 100px;
+    width: 100%;
+    background-color: #ABD9FF;
+    padding: 0 8%;
+    color: indigo;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box > p {
+    height: 300px;
+    width: 100%px;
+    padding: 0 8%;
+    display: flex;
+    color: indigo;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}

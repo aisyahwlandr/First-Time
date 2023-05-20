@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+.header{
+    padding: 10px;
+}
+
+.header .nav{
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav .logo{
+    height: 40px;
+}
+
+.link{
+    width: 40%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+.buttons{
+    background-color: #6342e4;
+    padding: 8px 16px;
+
+    color: #fff;
+}
+
+.buttons:hover{
+    background-color: red;
+}
+
+.main{
+    /* background-color: #6342e4; */
+    width: 80%;
+    margin: auto;
+}
+
+.main .hero{
+    height: 400px;
+
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.main .hero .kiri{
+    width: 50%;
+    margin-top: 20px;
+    /* background-color: #6342e4; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main .hero .kiri h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main .hero .kiri span{
+    font-size: 50px;
+    color: #6342e4;
+}
+
+.main .hero .kiri p{
+    margin-bottom: 40px;
+}
+
+.main .hero .kanan{
+    width: 50%;
+    background-image: url("coretan.png");
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.main .hero img{
+    width: 400px;
+}
+
+.main .hero .bungkusan-tombol{
+    display: flex;
+}
+
+.bungkusan-tombol .tombol-kiri{
+    background-color: #6342e4;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.bungkusan-tombol .tombol-kanan{
+    background-color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    color: #6342e4;
+    border: solid 1px #6342e4;;
+}
