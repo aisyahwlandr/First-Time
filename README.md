@@ -1,2 +1,2 @@
 # First-Time
-Kumpulan project awal awal mencoba hal baru
+Kumpulan project eksperimental
